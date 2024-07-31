@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0d0bf2b53e67c41a640b28b0ef8d65, type: 3}
+  m_Name: AWM
+  m_EditorClassIdentifier: 
+  model: {fileID: 1712302432649016625, guid: 0c694733f9e1f204292197e2cbf9a459, type: 3}
+  damage: 100
+  fireRate: 1.75
+  burstFireRate: 0
+  headShotMultiplier: 10
+  bodyShotMultiplier: 1
+  muzzleForce: 187
+  firemodes: 00000000
+  gunType: 2
+  bulletsPerShot: 0
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 100
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 25
+      value: 100
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 50
+      value: 87
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: 87
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 250
+      value: 77
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 333.33334
+      value: 77
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 500
+      value: 65
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 666.6667
+      value: 65
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1000
+      value: 58
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1500
+      value: 49
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distances:
+  - 25
+  - 50
+  - 100
+  - 250
+  - 333.33334
+  - 500
+  - 666.6667
+  - 1000
+  - 1500
+  damagesAtRange:
+  - 100
+  - 87
+  - 87
+  - 77
+  - 77
+  - 65
+  - 65
+  - 58
+  - 49
+  mags: 8
+  ammoInMags: 5
+  reloadTime: 2
+  reloadTimeNoAmmo: 4.5
+  bullet: 4
+  bulletPrefab: {fileID: 2633254729295500390, guid: eee5441de62e6f54c8e1ba30d763bb56, type: 3}
+  bulletCasingPrefab: {fileID: 7383807641434182536, guid: f496fbe8ad248834e85af4f8d1220d16, type: 3}
+  recoilX: 12
+  recoilY: 12
+  recoilZ: 10
+  gunRecoilX: 8
+  gunRecoilY: 8
+  gunRecoilZ: 0.5
+  aimrecoilX: 6
+  aimrecoilY: 6
+  aimrecoilZ: 5
+  gunAimrecoilX: 4
+  gunAimrecoilY: 4
+  gunAimrecoilZ: 0.25
+  sight: {fileID: 11400000, guid: c7ad7c56889cc3a4fae96e3d41058b16, type: 2}
+  AimInPosition: {x: 0, y: 0.377, z: -0.01}
+  HipPosition: {x: 0.2826, y: 0.2482, z: 0.3125}
+  audioClips:
+  - {fileID: 8300000, guid: e60f7e209ab87eb41bd86c4c64bd0e78, type: 3}
+  currentAmmo: 3
+  currentMags: 2
+  shotgunType: 0
+  spread: 0
+  spreadWhileAiming: 0
+  pelletCount: 0

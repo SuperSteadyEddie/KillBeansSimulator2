@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0d0bf2b53e67c41a640b28b0ef8d65, type: 3}
+  m_Name: M16A3
+  m_EditorClassIdentifier: 
+  model: {fileID: 8164653758169893130, guid: 1956a0196334ab143ae8348191f61473, type: 3}
+  damage: 25
+  fireRate: 0.08
+  burstFireRate: 0.07
+  headShotMultiplier: 1.5
+  bodyShotMultiplier: 1
+  muzzleForce: 43
+  firemodes: 030000000100000002000000
+  gunType: 0
+  bulletsPerShot: 3
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 25
+      value: 25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 50
+      value: 23
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: 23
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 200
+      value: 20
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 250
+      value: 20
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 300
+      value: 18
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distances:
+  - 25
+  - 50
+  - 100
+  - 200
+  - 250
+  - 300
+  damagesAtRange:
+  - 25
+  - 23
+  - 23
+  - 20
+  - 20
+  - 18
+  mags: 3
+  ammoInMags: 30
+  reloadTime: 2.5
+  reloadTimeNoAmmo: 2.75
+  bullet: 6
+  bulletPrefab: {fileID: 2633254729295500390, guid: 259d0594f8cd2c140a4f3f1a02c99187, type: 3}
+  bulletCasingPrefab: {fileID: 7383807641434182536, guid: f496fbe8ad248834e85af4f8d1220d16, type: 3}
+  recoilX: 1.2
+  recoilY: 1.2
+  recoilZ: 0.2
+  gunRecoilX: 1
+  gunRecoilY: 0.5
+  gunRecoilZ: 0.1
+  aimrecoilX: 0.5
+  aimrecoilY: 0.5
+  aimrecoilZ: 0.2
+  gunAimrecoilX: 0.13
+  gunAimrecoilY: 0.13
+  gunAimrecoilZ: 0.1
+  sight: {fileID: 11400000, guid: d3cdb2147ab56314f86c11505458b896, type: 2}
+  AimInPosition: {x: -0.0242, y: 0.1889, z: -2.0426}
+  HipPosition: {x: 0.2732, y: 0.08500001, z: -2.0426}
+  audioClips:
+  - {fileID: 8300000, guid: 0d9b043926bffe04aa8dab78d963f34a, type: 3}
+  currentAmmo: 0
+  currentMags: 3
+  shotgunType: 0
+  spread: 0
+  spreadWhileAiming: 0
+  pelletCount: 0

@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0d0bf2b53e67c41a640b28b0ef8d65, type: 3}
+  m_Name: Kriss Vector FUN TIME
+  m_EditorClassIdentifier: 
+  model: {fileID: 2458276504326498402, guid: bafdb29da9e4e084989a00c55393f0a1, type: 3}
+  damage: 33
+  fireRate: 0.01
+  burstFireRate: 0
+  headShotMultiplier: 2
+  bodyShotMultiplier: 1.1
+  muzzleForce: 10
+  firemodes: 0300000001000000
+  gunType: 0
+  bulletsPerShot: 0
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 33
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 15
+      value: 33
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 38
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 50
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 75
+      value: 13
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 100
+      value: 13
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 150
+      value: 9
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distances:
+  - 15
+  - 38
+  - 50
+  - 75
+  - 100
+  - 150
+  damagesAtRange:
+  - 33
+  - 15
+  - 15
+  - 13
+  - 13
+  - 9
+  mags: 10000
+  ammoInMags: 250
+  reloadTime: 0.75
+  reloadTimeNoAmmo: 1
+  bullet: 8
+  bulletPrefab: {fileID: 2633254729295500390, guid: 52479b4d2f1fb07469646ea406f742ea, type: 3}
+  bulletCasingPrefab: {fileID: 7383807641434182536, guid: f496fbe8ad248834e85af4f8d1220d16, type: 3}
+  recoilX: 1
+  recoilY: 1
+  recoilZ: 0.3
+  gunRecoilX: 3
+  gunRecoilY: 5
+  gunRecoilZ: 0.5
+  aimrecoilX: 0.5
+  aimrecoilY: 0.5
+  aimrecoilZ: 0.15
+  gunAimrecoilX: 0.7
+  gunAimrecoilY: 0.6
+  gunAimrecoilZ: 0.1
+  sight: {fileID: 11400000, guid: d3cdb2147ab56314f86c11505458b896, type: 2}
+  AimInPosition: {x: 0, y: 0.385, z: -0.1}
+  HipPosition: {x: 0.193, y: 0.129, z: 0}
+  audioClips:
+  - {fileID: 8300000, guid: a3fbbe7fea76f5942bb11a80bdb42ce0, type: 3}
+  currentAmmo: 0
+  currentMags: 4
+  shotgunType: 0
+  spread: 0
+  spreadWhileAiming: 0
+  pelletCount: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb0d0bf2b53e67c41a640b28b0ef8d65
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - model: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  - bulletCasingPrefab: {instanceID: 0}
+  - sight: {fileID: 11400000, guid: d3cdb2147ab56314f86c11505458b896, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

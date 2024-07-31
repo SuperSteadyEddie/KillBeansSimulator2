@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be2c6fe50d16884a8c96d9ac26fd116, type: 3}
+  m_Name: "Schmidt & Bender 10\xD742 PM"
+  m_EditorClassIdentifier: 
+  sight: {fileID: 1940667127426198382, guid: 17403c189ae5da5438dd4b2906523c69, type: 3}
+  cameraZoom: 1.5
+  aimTime: 0.5
+  type: 3
+  minScopeZoom: 2.5
+  scopeZoomChangeSpeed: 30
+  maxScopeZoom: 10
+  currentScopeZoom: 0
